@@ -5,7 +5,7 @@ namespace ii.LunarTides
 {
     public class DatProcessor
     {
-        public List<Image<Rgba32>> Process(string filePath, string? paletteFilePath = null)
+        public List<Image<Rgba32>> Read(string filePath, string? paletteFilePath = null)
         {
             var images = new List<Image<Rgba32>>();
 
@@ -43,7 +43,7 @@ namespace ii.LunarTides
             return images;
         }
 
-        private Rgba32[] LoadPalette(string paletteFilePath)
+        public Rgba32[] LoadPalette(string paletteFilePath)
         {
             var palette = new Rgba32[256];
             
