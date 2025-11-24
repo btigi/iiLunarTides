@@ -45,7 +45,7 @@ iiLunarTides is a C# library supporting the modification of files relating to So
 | bh_peop  | 〰️  |       | RLE
 | bh_pic   |      |       | 
 | bh_plan  |      |       | RLE
-| bh_scrn  |      |       | B800 Text
+| bh_scrn  | ✔   |       | B800 Text
 | bh_seq   |      |       | 
 | bh_seq2  |      |       | RLE
 | bh_shd   |      |       | 
